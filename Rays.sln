@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCLRaytracerModule", "OpenCLRaytracerModule\OpenCLRaytracerModule.vcxproj", "{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCLRaytracerTester", "OpenCLRaytracerTester\CudaRaytracerTester.vcxproj", "{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7} = {274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Kinect|Win32 = Debug Kinect|Win32
+		Debug Kinect|x64 = Debug Kinect|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release Kinect|Win32 = Release Kinect|Win32
+		Release Kinect|x64 = Release Kinect|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug Kinect|Win32.ActiveCfg = Debug Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug Kinect|Win32.Build.0 = Debug Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug Kinect|x64.ActiveCfg = Debug Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug|Win32.Build.0 = Debug|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Debug|x64.ActiveCfg = Debug|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release Kinect|Win32.ActiveCfg = Release Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release Kinect|Win32.Build.0 = Release Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release Kinect|x64.ActiveCfg = Release Kinect|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release|Win32.ActiveCfg = Release|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release|Win32.Build.0 = Release|Win32
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release|x64.ActiveCfg = Release|x64
+		{274FEF87-DA7A-49F9-A58B-FA0393D2CAB7}.Release|x64.Build.0 = Release|x64
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug Kinect|Win32.ActiveCfg = Debug Kinect|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug Kinect|Win32.Build.0 = Debug Kinect|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug Kinect|x64.ActiveCfg = Debug Kinect|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug|Win32.Build.0 = Debug|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Debug|x64.ActiveCfg = Debug|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release Kinect|Win32.ActiveCfg = Release Kinect|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release Kinect|Win32.Build.0 = Release Kinect|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release Kinect|x64.ActiveCfg = Release|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release|Win32.ActiveCfg = Release|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release|Win32.Build.0 = Release|Win32
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release|x64.ActiveCfg = Release|x64
+		{E7E7DE87-23F0-4BF1-806F-E0A0068229FE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
